@@ -27,7 +27,7 @@ def pass_generator(u,l,num,s):
 
 
 
-n=int(input("Enter Lenght of Password You Want(less than 20 characters): "))
+n=int(input("Enter The Lenght Of Password You Want(less than 20 characters): "))
 u,l,num,s=0,0,0,0               
 while(u + l + num + s != n):        #randomly selecting number of uppercase, lowercase, numbers and special characters
     u = random.randint(1,5)
